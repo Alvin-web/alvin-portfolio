@@ -1,0 +1,140 @@
+/* Reset margin and padding for body and html */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+::placeholder{
+  color: white;
+}
+
+
+.register-page{
+  width: 100%;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1435' height='800' preserveAspectRatio='none' viewBox='0 0 1435 800'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1252%26quot%3b)' fill='none'%3e%3crect width='1435' height='800' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c618 C 95.8%2c560.6 287.4%2c363.8 479%2c331 C 670.6%2c298.2 766.8%2c454.8 958%2c454 C 1149.2%2c453.2 1339.6%2c352.4 1435%2c327L1435 800L0 800z' fill='rgba(3%2c 98%2c 76%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1252'%3e%3crect width='1435' height='800' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.register-page .container form h1 {
+  color: #00f38e;
+  text-shadow: 0 0 5px #008b51, 0 0 10px #008d52, 0 0 15px #00884f;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+h3{
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+kaka {
+  padding-bottom: 50px;
+}
+
+label {
+  color: white;
+}
+
+/* The container styling is now inside .register-page */
+.register-page .container {
+  width: 100%;  /* Take up full width */
+  height: 100vh;
+  /* background: linear-gradient(180deg, black, #000000de); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form styling inside .register-page */
+ form {
+  width: 670px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  flex-wrap: wrap;
+}
+
+/* Additional styles (inputs, buttons, etc.) */
+.register-page .container form input {
+  width: 290px;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+  background: none;
+  border-bottom: 2px solid #fff;
+  color: white;
+}
+
+#message{
+  margin-top: 30px;
+}
+
+.register-page .container form textarea {
+  width: 200px;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  background: none;
+  border-bottom: 2px solid #fff;
+}
+
+.register-page .container form textarea {
+  min-width: 450px;
+  max-width: 600px;
+  min-height: 80px;
+  max-height: 80px;
+  color: #fff;
+}
+
+.register-page .container form #button {
+  border: none;
+  background-color: #00df82;
+  border-radius: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  width: 100px;
+  padding: 0;
+  margin-left: 30px;
+  margin-right: 70px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.register-page .container form #button:hover {
+  background: linear-gradient(45deg, #00df82, purple); /* Darker shade for hover */
+    transform: scale(1.05); /* Slightly increase the button size */
+    box-shadow: 0 4px 15px rgba(0, 223, 130, 0.3); /* Add a subtle shadow */
+    transition: 0.3s ease-out;
+}
+
+.register-page .container input{
+  color: #fff;
+}
+
+
