@@ -30,8 +30,6 @@ function App() {
       </Routes>
     </BrowserRouter>
 
-      <p>Hello world</p>
-     
     </>
   )
 }
